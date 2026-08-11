@@ -14,6 +14,8 @@ def _cred(name):
     val = os.getenv(name, "").strip()
     if not val:
         raise RuntimeError(f"Missing required env var: {name}")
+    # Log length only (never the value) to help diagnose bad/mismatched keys.
+    print(f"[x] {name}: {len(val)} chars")
     return val
 
 
