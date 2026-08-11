@@ -42,7 +42,8 @@ def _fallback_thread(topic):
     }
 
 
-def generate(dry_run=False):
+def generate(dry_run=False, slot=None):
+    slot = slot or draft_store.current_slot()
     used = draft_store.load_used_topics()
     mode, topic = topic_provider.pick_topic(used)
     date_str = draft_store.today_str()
@@ -73,12 +74,13 @@ def generate(dry_run=False):
     thread["status"] = "pending"
     thread["mode"] = mode
     thread["date"] = date_str
+    thread["slot"] = slot
 
     if dry_run:
         print(json.dumps(thread, indent=2, ensure_ascii=False))
         return thread
 
-    path = draft_store.write_draft(thread, date_str)
+    path = draft_store.write_draft(thread, date_str, slot)
     print(f"[gen] draft written: {path}")
     return thread
 
@@ -87,10 +89,11 @@ def _auto_approve_enabled():
     return os.getenv("AUTO_APPROVE", "true").strip().lower() in ("1", "true", "yes")
 
 
-def publish(dry_run=False):
-    draft = draft_store.read_draft()
+def publish(dry_run=False, slot=None):
+    slot = slot or draft_store.current_slot()
+    draft = draft_store.read_draft(slot=slot)
     if draft is None:
-        print("[pub] no draft for today; nothing to publish")
+        print(f"[pub] no draft for today's {slot} slot; nothing to publish")
         return
 
     status = draft.get("status", "pending")
@@ -128,20 +131,22 @@ def publish(dry_run=False):
         if image_path and os.path.exists(image_path):
             os.remove(image_path)
 
-    draft_store.update_draft_status("posted", extra={"tweet_ids": ids})
+    draft_store.update_draft_status("posted", slot=slot, extra={"tweet_ids": ids})
     draft_store.save_used_topic(draft["slug"])
-    print(f"[pub] posted thread: {ids}")
+    print(f"[pub] posted {slot} thread: {ids}")
 
 
 def main():
     p = argparse.ArgumentParser(description="Daily Indian-heritage history bot")
     p.add_argument("--mode", choices=["generate", "publish"], required=True)
+    p.add_argument("--slot", choices=["morning", "evening"], default=None,
+                   help="override slot (default: derived from current IST time)")
     p.add_argument("--dry-run", action="store_true", help="print, don't write/post")
     args = p.parse_args()
     if args.mode == "generate":
-        generate(dry_run=args.dry_run)
+        generate(dry_run=args.dry_run, slot=args.slot)
     else:
-        publish(dry_run=args.dry_run)
+        publish(dry_run=args.dry_run, slot=args.slot)
 
 
 if __name__ == "__main__":

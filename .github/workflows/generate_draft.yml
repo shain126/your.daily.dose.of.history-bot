@@ -2,7 +2,8 @@ name: Generate daily draft
 
 on:
   schedule:
-    - cron: "30 2 * * *"   # 08:00 IST (02:30 UTC)
+    - cron: "30 0 * * *"    # 06:00 IST -> morning draft (posts 08:00)
+    - cron: "30 12 * * *"   # 18:00 IST -> evening draft (posts 20:00)
   workflow_dispatch:
 
 permissions:

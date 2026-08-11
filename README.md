@@ -11,12 +11,16 @@ Inspired by [`spanish-word-bot`](https://github.com/shain126/spanish-word-bot).
 
 ## How it works
 
-Two scheduled jobs per day:
+**Two posts a day** — a *morning* slot and an *evening* slot — each produced by a
+generate→publish pair (generate runs ~2h earlier, leaving a review window):
 
-| Stage | Workflow | Default time | What it does |
-|-------|----------|--------------|--------------|
-| **Generate** | `.github/workflows/generate_draft.yml` | 08:00 IST | Pick a topic → Claude writes the thread → pick a Wikimedia image → save `drafts/<date>.json` (status `pending`) and commit it. |
-| **Publish** | `.github/workflows/publish.yml` | 13:30 IST | Read today's draft → post the thread to X → mark it `posted`, record the topic. |
+| Stage | Workflow | Times (IST) | What it does |
+|-------|----------|-------------|--------------|
+| **Generate** | `.github/workflows/generate_draft.yml` | 06:00 & 18:00 | Pick a topic → Claude writes the thread → pick a Wikimedia image → save `drafts/<date>-<slot>.json` (status `pending`) and commit it. |
+| **Publish** | `.github/workflows/publish.yml` | 08:00 & 20:00 | Read that slot's draft → post the thread to X → mark it `posted`, record the topic. |
+
+The slot (`morning` / `evening`) is derived from the IST hour, so both jobs in a pair
+act on the same draft. Two topics are consumed per day; `used_topics.txt` prevents repeats.
 
 **Content:** the *India's Sacred Wonders* signature series — five rotating pillars
 (temples & architecture, ancient science, forgotten empires, epics & sacred geography,
@@ -28,7 +32,7 @@ framing — the growth strategy is pride-in-heritage done accurately.
 
 ### Optional human review (you're on auto by default)
 `AUTO_APPROVE=true` means the draft auto-posts even if you don't touch it. To review before
-posting, in the ~5.5h window between the two jobs open `drafts/<today>.json` in the GitHub
+posting, in the ~2h window before each slot open `drafts/<today>-<slot>.json` in the GitHub
 mobile app and:
 - edit any tweet text or the `image.url`, then set `"status": "approved"`; or
 - set `"status": "skip"` to cancel the day's post.
@@ -109,7 +113,7 @@ image_provider.py  # Wikimedia Commons search + quality/licence ranking
 twitter_client.py  # Tweepy: media upload + threaded reply chain
 draft_store.py     # drafts/*.json queue + used_topics.txt tracker (IST-dated)
 topics.json        # signature-series topic pool
-drafts/            # one <YYYY-MM-DD>.json per day (committed by CI)
+drafts/            # <YYYY-MM-DD>-<slot>.json, two per day (committed by CI)
 used_topics.txt    # posted-topic slugs, to avoid repeats (committed by CI)
 ```
 

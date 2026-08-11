@@ -2,7 +2,8 @@ name: Publish daily thread
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # 13:30 IST (08:00 UTC) — ~5.5h after the draft is generated
+    - cron: "30 2 * * *"    # 08:00 IST -> post morning thread
+    - cron: "30 14 * * *"   # 20:00 IST -> post evening thread
   workflow_dispatch:
 
 permissions:
