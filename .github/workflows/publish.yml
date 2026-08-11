@@ -1,0 +1,44 @@
+name: Publish daily thread
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 13:30 IST (08:00 UTC) — ~5.5h after the draft is generated
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: history-bot
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish thread
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}
+        run: python bot.py --mode publish
+
+      - name: Commit status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add drafts/ || true
+          git add used_topics.txt 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Mark thread posted [skip ci]"
+          git push

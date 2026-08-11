@@ -1,0 +1,37 @@
+{
+  "pillars": {
+    "temples": "Temples & Sacred Architecture",
+    "science": "Ancient Indian Science & Innovation",
+    "empires": "Forgotten Empires & Kings",
+    "epics": "Epics & Sacred Geography",
+    "art": "Sacred Art & Manuscripts"
+  },
+  "topics": [
+    {"slug": "kailasa-temple-ellora", "pillar": "temples", "title": "Kailasa Temple, Ellora", "image_query": "Kailasa temple Ellora", "fact": "The Kailasa Temple at Ellora was carved top-down from a single rock — around 200,000 tonnes of stone removed by hand, with no bricks and nothing assembled."},
+    {"slug": "brihadeeswarar-temple", "pillar": "temples", "title": "Brihadeeswarar Temple, Thanjavur", "image_query": "Brihadeeswarar Temple Thanjavur", "fact": "The Cholas raised the 66m Brihadeeswarar Temple in 1010 CE; its granite capstone alone weighs roughly 80 tonnes."},
+    {"slug": "konark-sun-temple", "pillar": "temples", "title": "Konark Sun Temple", "image_query": "Konark Sun Temple", "fact": "Konark's Sun Temple is a colossal stone chariot; its 24 carved wheels double as working sundials."},
+    {"slug": "vittala-temple-hampi", "pillar": "temples", "title": "Vittala Temple, Hampi", "image_query": "Vittala Temple Hampi", "fact": "Hampi's Vittala Temple has stone pillars that ring with musical notes when struck."},
+    {"slug": "chand-baori-stepwell", "pillar": "temples", "title": "Chand Baori Stepwell", "image_query": "Chand Baori", "fact": "Chand Baori descends 13 storeys through 3,500 steps arranged in near-perfect geometric symmetry."},
+    {"slug": "rani-ki-vav", "pillar": "temples", "title": "Rani ki Vav", "image_query": "Rani ki Vav", "fact": "Rani ki Vav is an inverted underground temple-stepwell with over 500 sculptures — printed on the Indian 100-rupee note."},
+    {"slug": "khajuraho-temples", "pillar": "temples", "title": "Khajuraho Temples", "image_query": "Khajuraho temple", "fact": "The Chandelas built the Khajuraho temples in about 200 years; the jungle then hid them for centuries."},
+    {"slug": "meenakshi-temple-madurai", "pillar": "temples", "title": "Meenakshi Temple, Madurai", "image_query": "Meenakshi Temple Madurai", "fact": "Madurai's Meenakshi Temple has 14 towering gopurams covered in an estimated 33,000 sculptures."},
+    {"slug": "iron-pillar-delhi", "pillar": "science", "title": "The Iron Pillar of Delhi", "image_query": "Iron Pillar Delhi", "fact": "The Iron Pillar of Delhi has barely rusted in over 1,600 years, thanks to a protective phosphorus-rich iron layer."},
+    {"slug": "concept-of-zero", "pillar": "science", "title": "India and the Number Zero", "image_query": "Bakhshali manuscript", "fact": "Zero as a true number was formalised in India; the Bakhshali manuscript holds one of its oldest known dot-symbols."},
+    {"slug": "aryabhata-astronomer", "pillar": "science", "title": "Aryabhata", "image_query": "Aryabhata statue", "fact": "In 476 CE Aryabhata pegged the year's length to within minutes and argued that the Earth spins on its axis."},
+    {"slug": "sushruta-surgery", "pillar": "science", "title": "Sushruta, Father of Surgery", "image_query": "Sushruta", "fact": "Roughly 2,500 years ago Sushruta described cataract removal and reconstructive plastic surgery in the Sushruta Samhita."},
+    {"slug": "takshashila-university", "pillar": "science", "title": "Takshashila (Taxila)", "image_query": "Taxila ruins", "fact": "Takshashila drew students from across Asia more than 2,000 years ago — one of the world's earliest centres of higher learning."},
+    {"slug": "nalanda-university", "pillar": "science", "title": "Nalanda", "image_query": "Nalanda ruins", "fact": "Nalanda's library was so vast that, when the university was destroyed, it is said to have burned for months."},
+    {"slug": "chola-naval-empire", "pillar": "empires", "title": "The Chola Naval Empire", "image_query": "Airavatesvara Temple Chola", "fact": "The Chola navy sailed across the Bay of Bengal to conquer parts of Southeast Asia — a rare Indian sea-power."},
+    {"slug": "rajaraja-chola", "pillar": "empires", "title": "Rajaraja Chola I", "image_query": "Rajaraja Chola", "fact": "Rajaraja Chola I forged one of medieval history's great empires and commissioned the Brihadeeswarar Temple."},
+    {"slug": "vijayanagara-empire", "pillar": "empires", "title": "Vijayanagara Empire", "image_query": "Hampi Vijayanagara", "fact": "At its height Vijayanagara's capital was among the largest and richest cities on Earth."},
+    {"slug": "ahom-kingdom", "pillar": "empires", "title": "The Ahom Kingdom", "image_query": "Rang Ghar Ahom", "fact": "The Ahom kingdom ruled Assam for about 600 years and repeatedly turned back Mughal invasions."},
+    {"slug": "maratha-empire", "pillar": "empires", "title": "The Maratha Empire", "image_query": "Raigad Fort", "fact": "From the Deccan hills the Marathas rose to control much of the Indian subcontinent by the 18th century."},
+    {"slug": "lachit-borphukan", "pillar": "empires", "title": "Lachit Borphukan", "image_query": "Lachit Borphukan statue", "fact": "In 1671 Lachit Borphukan's outnumbered Ahom navy shattered a Mughal fleet on the Brahmaputra at Saraighat."},
+    {"slug": "kumbh-mela", "pillar": "epics", "title": "The Kumbh Mela", "image_query": "Kumbh Mela", "fact": "The Kumbh Mela is the largest human gathering on Earth — its crowds are visible from space."},
+    {"slug": "twelve-jyotirlingas", "pillar": "epics", "title": "The Twelve Jyotirlingas", "image_query": "Somnath temple", "fact": "Twelve jyotirlingas across India mark shrines where Shiva is revered as an endless pillar of light."},
+    {"slug": "ram-setu", "pillar": "epics", "title": "Ram Setu / Adam's Bridge", "image_query": "Adam's Bridge Rameswaram", "fact": "Ram Setu is a 48km chain of limestone shoals stretching between India and Sri Lanka."},
+    {"slug": "chola-bronzes", "pillar": "art", "title": "Chola Bronzes", "image_query": "Nataraja bronze Chola", "fact": "Chola lost-wax bronzes like the dancing Nataraja rank among the finest metal sculptures ever cast."},
+    {"slug": "ajanta-caves", "pillar": "art", "title": "The Ajanta Caves", "image_query": "Ajanta Caves paintings", "fact": "Ajanta's 2,000-year-old cave paintings lay forgotten until a British hunting party stumbled on them in 1819."},
+    {"slug": "ellora-caves", "pillar": "art", "title": "The Ellora Caves", "image_query": "Ellora Caves", "fact": "Ellora's 34 rock-cut caves place Hindu, Buddhist and Jain monuments peacefully side by side."}
+  ]
+}
