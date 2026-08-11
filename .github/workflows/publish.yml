@@ -36,10 +36,18 @@ jobs:
         run: python bot.py --mode publish
 
       - name: Commit status
+        if: always()
         run: |
+          set +e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add drafts/ || true
-          git add used_topics.txt 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "Mark thread posted [skip ci]"
-          git push
+          git add drafts/
+          git add used_topics.txt 2>/dev/null
+          if git diff --staged --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Mark thread posted [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin main; then echo "pushed"; exit 0; fi
+            echo "push retry $i failed"; sleep 5
+          done
+          echo "push failed after retries"; exit 1

@@ -40,8 +40,15 @@ jobs:
 
       - name: Commit draft
         run: |
+          set +e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add drafts/
-          git diff --staged --quiet || git commit -m "Add daily draft [skip ci]"
-          git push
+          if git diff --staged --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Add daily draft [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin main; then echo "pushed"; exit 0; fi
+            echo "push retry $i failed"; sleep 5
+          done
+          echo "push failed after retries"; exit 1
