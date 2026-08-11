@@ -11,16 +11,17 @@ Inspired by [`spanish-word-bot`](https://github.com/shain126/spanish-word-bot).
 
 ## How it works
 
-**Two posts a day** — a *morning* slot and an *evening* slot — each produced by a
-generate→publish pair (generate runs ~2h earlier, leaving a review window):
+**One post a day**, produced by a generate→publish pair (generate runs ~2h earlier,
+leaving a review window):
 
-| Stage | Workflow | Times (IST) | What it does |
-|-------|----------|-------------|--------------|
-| **Generate** | `.github/workflows/generate_draft.yml` | 06:00 & 18:00 | Pick a topic → Claude writes the thread → pick a Wikimedia image → save `drafts/<date>-<slot>.json` (status `pending`) and commit it. |
-| **Publish** | `.github/workflows/publish.yml` | 08:00 & 20:00 | Read that slot's draft → post the thread to X → mark it `posted`, record the topic. |
+| Stage | Workflow | Time (IST) | What it does |
+|-------|----------|------------|--------------|
+| **Generate** | `.github/workflows/generate_draft.yml` | 06:00 | Pick a topic → Claude writes the thread → pick a Wikimedia image → save `drafts/<date>-<slot>.json` (status `pending`) and commit it. |
+| **Publish** | `.github/workflows/publish.yml` | 08:00 | Read that draft → post the thread to X → mark it `posted`, record the topic. |
 
-The slot (`morning` / `evening`) is derived from the IST hour, so both jobs in a pair
-act on the same draft. Two topics are consumed per day; `used_topics.txt` prevents repeats.
+Both jobs run in the morning, so they share the same `morning` draft. One topic is
+consumed per day; `used_topics.txt` prevents repeats. (To go back to twice daily, add
+a second `cron` to each workflow — the morning/evening slot logic is still built in.)
 
 **Content:** the *India's Sacred Wonders* signature series — five rotating pillars
 (temples & architecture, ancient science, forgotten empires, epics & sacred geography,
