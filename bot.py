@@ -11,6 +11,7 @@ template fallback, and state is tracked in files committed back by CI.
 import argparse
 import json
 import os
+import random
 import tempfile
 
 from dotenv import load_dotenv
@@ -25,12 +26,14 @@ load_dotenv()
 
 ATTRIB_PREFIX = "\U0001F4F7 "  # camera emoji
 
+# Default to the image-first "showcase" post; occasionally run a longer thread.
+THREAD_CHANCE = 0.15
+
 
 def _fallback_thread(topic):
-    """Template thread used when the Claude CLI is unavailable."""
+    """Template showcase post used when the Claude CLI is unavailable."""
     tweets = [
-        topic.get("fact", topic["title"]),
-        f"{topic['title']} — one of the wonders of India's heritage.",
+        f"{topic['title']}. {topic.get('fact', '')}".strip(),
         "Follow @yddoseOfHistory for your daily dose of history \U0001F1EE\U0001F1F3",
     ]
     return {
@@ -38,6 +41,7 @@ def _fallback_thread(topic):
         "pillar": topic.get("pillar", "epics"),
         "image_query": topic.get("image_query", topic["title"]),
         "confidence": "fallback",
+        "format": "showcase",
         "tweets": [t[:280] for t in tweets],
     }
 
@@ -47,10 +51,11 @@ def generate(dry_run=False, slot=None):
     used = draft_store.load_used_topics()
     mode, topic = topic_provider.pick_topic(used)
     date_str = draft_store.today_str()
+    fmt = "thread" if random.random() < THREAD_CHANCE else "showcase"
 
     try:
-        thread = claude_client.generate_history_thread(mode, topic, date_str, used)
-        print(f"[gen] Claude thread ok (mode={mode}, slug={thread['slug']})")
+        thread = claude_client.generate_history_thread(mode, topic, date_str, used, fmt=fmt)
+        print(f"[gen] Claude {fmt} ok (mode={mode}, slug={thread['slug']})")
     except Exception as e:
         print(f"[gen] Claude failed ({e}); using local fallback")
         fb_topic = topic or topic_provider.get_next_unused_topic(used)

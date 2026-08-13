@@ -2,8 +2,11 @@
 
 Posts a **daily thread with a striking image** about India's civilizational heritage to
 [X / @yddoseOfHistory](https://x.com/yddoseOfHistory) — fully automatically, for free, on
-GitHub Actions. Claude writes a hook-optimized thread; a real, permissively-licensed image
-is pulled from Wikimedia Commons; the thread is posted as a reply-chain.
+GitHub Actions. By default it's an **image-first "showcase"** — one striking image + a short
+curator caption ("attribute + teach", with IAST diacritics), styled after accounts that grow
+in this niche (@hinduaesthetic, @IndiaArtHistory). Topics are weighted toward the most visual
+pillars (art, temples); a longer hook-driven **thread** runs occasionally (~15%). Images are
+pulled from Wikimedia Commons and posted via reply-chain when there's more than one tweet.
 
 Inspired by [`spanish-word-bot`](https://github.com/shain126/spanish-word-bot).
 
