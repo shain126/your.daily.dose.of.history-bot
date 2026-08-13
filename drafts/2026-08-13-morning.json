@@ -13,8 +13,13 @@
     "attribution": "Shishirdasika / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "kailasa-temple-ellora — File:Kailasa Ellora.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "on_this_day",
   "date": "2026-08-13",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2087757189738095067",
+    "2087757201301700888",
+    "2087757210621554974"
+  ]
 }
