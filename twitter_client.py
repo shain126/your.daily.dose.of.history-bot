@@ -10,6 +10,14 @@ import time
 import tweepy
 
 
+class PostingBlocked(Exception):
+    """X refused to post for a billing/permission/rate reason — not a code bug.
+
+    The caller (bot.py) treats this as a clean skip (log + exit 0) rather than
+    crashing the run with a traceback.
+    """
+
+
 def _cred(name):
     val = os.getenv(name, "").strip()
     if not val:
@@ -45,23 +53,55 @@ def _create_with_retry(client, retries=3, delay=10, **kwargs):
                 raise
             print(f"[x] server error (attempt {attempt}/{retries}), retrying in {delay}s: {e}")
             time.sleep(delay)
+        except tweepy.errors.TooManyRequests as e:
+            raise PostingBlocked("X API rate limit reached (429) — try again later.") from e
+        except tweepy.errors.Forbidden as e:
+            raise PostingBlocked(
+                f"X refused the post (403) — app may be read-only, or this is a duplicate tweet: {e}"
+            ) from e
+        except tweepy.errors.HTTPException as e:
+            status = getattr(getattr(e, "response", None), "status_code", None)
+            if status == 402:
+                raise PostingBlocked(
+                    "X API credits depleted (402 Payment Required) — add credits or upgrade "
+                    "the tier in the X developer portal."
+                ) from e
+            raise
 
 
 def post_thread(tweets, image_path=None, image_alt=None):
     client, api = _clients()
 
-    me = client.get_me()
-    print(f"[x] authenticated as @{me.data.username}")
+    try:
+        me = client.get_me()
+        print(f"[x] authenticated as @{me.data.username}")
+    except tweepy.errors.Unauthorized as e:
+        raise PostingBlocked(
+            "X auth failed (401) — check the four X_* keys and that the app is set to Read+Write."
+        ) from e
+    except tweepy.errors.HTTPException as e:
+        status = getattr(getattr(e, "response", None), "status_code", None)
+        if status == 402:
+            raise PostingBlocked(
+                "X API credits depleted (402) — add credits or upgrade the tier in the X portal."
+            ) from e
+        raise
 
     media_ids = None
     if image_path and os.path.exists(image_path):
-        media = api.media_upload(filename=image_path)
-        media_ids = [media.media_id_string]
-        if image_alt:
-            try:
-                api.create_media_metadata(media.media_id_string, image_alt[:1000])
-            except Exception as e:
-                print(f"[x] alt-text set failed (non-fatal): {e}")
+        try:
+            media = api.media_upload(filename=image_path)
+            media_ids = [media.media_id_string]
+            if image_alt:
+                try:
+                    api.create_media_metadata(media.media_id_string, image_alt[:1000])
+                except Exception as e:
+                    print(f"[x] alt-text set failed (non-fatal): {e}")
+        except tweepy.errors.TweepyException as e:
+            # Media upload can be blocked on some API tiers — fall back to text-only
+            # rather than failing the whole post.
+            print(f"[x] media upload unavailable, posting text-only: {e}")
+            media_ids = None
 
     ids = []
     reply_to = None

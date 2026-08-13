@@ -132,6 +132,11 @@ def publish(dry_run=False, slot=None):
         ids = twitter_client.post_thread(
             tweets, image_path=image_path, image_alt=(img or {}).get("alt")
         )
+    except twitter_client.PostingBlocked as e:
+        # Known billing/permission/rate condition — log clearly and leave the draft
+        # 'pending' (no traceback, run stays green, nothing marked posted).
+        print(f"[pub] not posted — {e}")
+        return
     finally:
         if image_path and os.path.exists(image_path):
             os.remove(image_path)
