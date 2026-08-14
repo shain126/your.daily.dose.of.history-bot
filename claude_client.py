@@ -118,18 +118,25 @@ def generate_history_thread(mode, topic, date_str, used_slugs, fmt="showcase", t
     else:
         prompt = _build_showcase_prompt(mode, topic, date_str, used_slugs)
 
-    cmd = [_claude_bin(), "-p", prompt]
+    binary = _claude_bin()
+    cmd = [binary, "-p", prompt]
     model = os.getenv("CLAUDE_MODEL")
     if model:
         cmd += ["--model", model]
+    print(f"[gen] invoking Claude CLI: {binary} (token set: {bool(os.getenv('CLAUDE_CODE_OAUTH_TOKEN'))})")
 
     result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
     if result.returncode != 0:
         raise RuntimeError(
-            f"Claude CLI failed ({result.returncode}): {result.stderr or result.stdout}"
+            f"Claude CLI exit {result.returncode}: {(result.stderr or result.stdout or '')[:500]}"
         )
 
-    data = _extract_json(result.stdout.strip())
+    try:
+        data = _extract_json(result.stdout.strip())
+    except Exception as e:
+        raise RuntimeError(
+            f"Claude output not valid JSON ({e}); first 300 chars: {result.stdout.strip()[:300]!r}"
+        ) from e
 
     tweets = [t.strip() for t in data.get("tweets", []) if t and t.strip()]
     if not (1 <= len(tweets) <= 5):
