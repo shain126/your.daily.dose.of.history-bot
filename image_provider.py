@@ -17,7 +17,8 @@ import requests
 API = "https://commons.wikimedia.org/w/api.php"
 # Wikimedia requires a descriptive User-Agent.
 USER_AGENT = "yddoseOfHistory-bot/1.0 (https://x.com/yddoseOfHistory)"
-MIN_WIDTH = 1200
+MIN_WIDTH = 1200      # minimum SOURCE resolution to consider an image
+THUMB_WIDTH = 2048    # width of the scaled thumbnail we actually upload (keeps <5MB for X)
 BAD_WORDS = (
     "logo", "icon", "map", "diagram", "flag", "coat_of_arms",
     "seal", "chart", "graph", "locator", "svg", "blank", "symbol",
@@ -45,6 +46,9 @@ def _search(query, limit=12):
         "action": "query", "format": "json", "generator": "search",
         "gsrsearch": query, "gsrnamespace": "6", "gsrlimit": str(limit),
         "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
+        # Ask Wikimedia for a scaled thumbnail too. X caps image uploads at ~5MB,
+        # while Commons originals are often 10-30MB, so we upload the thumbnail.
+        "iiurlwidth": str(THUMB_WIDTH),
     }
     r = requests.get(API, params=params, headers={"User-Agent": USER_AGENT}, timeout=30)
     r.raise_for_status()
@@ -70,8 +74,12 @@ def _evaluate(page):
         return None
 
     artist = _strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown"
+    # Prefer the scaled thumbnail (small enough for X); fall back to the original.
+    # `width` (the source resolution) is still used for ranking/filtering above.
+    upload_url = ii.get("thumburl") or ii.get("url")
     return {
-        "url": ii.get("url"),
+        "url": upload_url,
+        "full_url": ii.get("url"),
         "width": width,
         "height": ii.get("height", 0),
         "mime": mime,
