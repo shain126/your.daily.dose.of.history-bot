@@ -1,0 +1,19 @@
+{
+  "slug": "ajanta-padmapani-bodhisattva",
+  "pillar": "art",
+  "image_query": "Padmapani Bodhisattva mural Ajanta Cave 1 painting",
+  "confidence": "high",
+  "tweets": [
+    "Padmapani, the lotus-bearing Bodhisattva of compassion, gazes down from the walls of Cave 1 at Ajanta — painted not in true fresco but tempera on dry lime plaster, pigments ground from ochre, lapis and soot. Vākāṭaka period, c. 475–500 CE."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ajanta._Cueva_1._Pinturas_murales._MPLC_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Manuel de Corselas / Wikimedia Commons (CC BY-SA 3.0)",
+    "alt": "ajanta-padmapani-bodhisattva — File:Ajanta. Cueva 1. Pinturas murales. MPLC 02.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-08-15",
+  "slot": "morning"
+}
