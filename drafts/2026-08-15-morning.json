@@ -12,8 +12,11 @@
     "attribution": "Manuel de Corselas / Wikimedia Commons (CC BY-SA 3.0)",
     "alt": "ajanta-padmapani-bodhisattva — File:Ajanta. Cueva 1. Pinturas murales. MPLC 02.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-15",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2088463649350320179"
+  ]
 }
