@@ -1,0 +1,19 @@
+{
+  "slug": "chola-bronze-nataraja",
+  "pillar": "art",
+  "image_query": "Chola bronze Nataraja Shiva sculpture",
+  "confidence": "high",
+  "tweets": [
+    "Naṭarāja, Lord of the Dance — Chola bronze, Tamil Nadu, c. 10th–11th century CE. Cast by the lost-wax method: a wax model, sheathed in clay, melted away in firing — each bronze unrepeatable, its mould destroyed the instant the image is born."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Shiva_Nataraja%2C_Southern_India%2C_Tamil_Nadu%2C_Chola_dynasty%2C_detail%2C_900s-1100s_with_later_alterations%2C_cast_bronze_-_Portland_Art_Museum_-_Portland%2C_Oregon_-_DSC08479.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Daderot / Wikimedia Commons (Public domain)",
+    "alt": "chola-bronze-nataraja — File:Shiva Nataraja, Southern India, Tamil Nadu, Chola dynasty, detail, 900s-1100s with later alterations, cast bronze - Portland Art Museum - Portland, Oregon - DSC08479.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-08-16",
+  "slot": "morning"
+}
