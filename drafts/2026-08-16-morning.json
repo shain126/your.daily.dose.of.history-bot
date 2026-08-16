@@ -12,8 +12,11 @@
     "attribution": "Daderot / Wikimedia Commons (Public domain)",
     "alt": "chola-bronze-nataraja — File:Shiva Nataraja, Southern India, Tamil Nadu, Chola dynasty, detail, 900s-1100s with later alterations, cast bronze - Portland Art Museum - Portland, Oregon - DSC08479.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-16",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2088829879835873721"
+  ]
 }
