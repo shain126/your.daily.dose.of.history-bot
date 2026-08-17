@@ -12,8 +12,11 @@
     "attribution": "Mhtoori / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "takshashila-ancient-centre-of-learning — File:Dharmarajika stupa & Monastery Taxila.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-17",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2089192277402948021"
+  ]
 }
