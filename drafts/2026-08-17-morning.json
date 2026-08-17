@@ -1,0 +1,19 @@
+{
+  "slug": "takshashila-ancient-centre-of-learning",
+  "pillar": "science",
+  "image_query": "Dharmarajika Stupa Taxila ruins",
+  "confidence": "high",
+  "tweets": [
+    "Takshashila, in ancient Gandhāra — one of the world's earliest centres of higher learning. Rather than one campus, students sought out master teachers renowned in grammar, medicine, statecraft or archery — travelling from across Asia to study under them."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Dharmarajika_stupa_%26_Monastery_Taxila.jpg/3840px-Dharmarajika_stupa_%26_Monastery_Taxila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Mhtoori / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "takshashila-ancient-centre-of-learning — File:Dharmarajika stupa & Monastery Taxila.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-08-17",
+  "slot": "morning"
+}
