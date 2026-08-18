@@ -1,0 +1,20 @@
+{
+  "slug": "tanjore-painting",
+  "pillar": "art",
+  "image_query": "Tanjore painting",
+  "confidence": "fallback",
+  "format": "showcase",
+  "tweets": [
+    "Tanjore Painting. Thanjavur paintings glow with real gold leaf and once-set gemstones, a South Indian art centuries old.",
+    "Follow @yddoseOfHistory for your daily dose of history 🇮🇳\n📷 Ravindraboopathi / Wikimedia Commons (CC BY-SA 3.0)"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Tanjore_painting.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ravindraboopathi / Wikimedia Commons (CC BY-SA 3.0)",
+    "alt": "tanjore-painting — File:Tanjore painting.jpeg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-08-18",
+  "slot": "morning"
+}
