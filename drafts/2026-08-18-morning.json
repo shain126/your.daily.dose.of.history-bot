@@ -13,8 +13,12 @@
     "attribution": "Ravindraboopathi / Wikimedia Commons (CC BY-SA 3.0)",
     "alt": "tanjore-painting — File:Tanjore painting.jpeg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-18",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2089553511570694604",
+    "2089553522886934700"
+  ]
 }
