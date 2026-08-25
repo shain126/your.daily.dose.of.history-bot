@@ -12,8 +12,15 @@
   ],
   "format": "thread",
   "image": null,
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-25",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2092091045458620886",
+    "2092091054979743921",
+    "2092091064542798171",
+    "2092091074147758170",
+    "2092091083933012018"
+  ]
 }
