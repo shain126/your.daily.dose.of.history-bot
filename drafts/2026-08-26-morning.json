@@ -9,8 +9,12 @@
   ],
   "format": "showcase",
   "image": null,
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-26",
-  "slot": "morning"
+  "slot": "morning",
+  "tweet_ids": [
+    "2092455136018964640",
+    "2092455145443619133"
+  ]
 }
