@@ -12,8 +12,11 @@
     "attribution": "Pinakpani / Wikimedia Commons (CC BY 4.0)",
     "alt": "pushkar-brahma-temple-lotus-lake — File:Pushkar Brahma Temple, at Pushkar in Rajasthan 01.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-27",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2092959845456421366"
+  ]
 }
