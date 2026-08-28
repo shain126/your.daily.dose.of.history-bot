@@ -12,8 +12,11 @@
     "attribution": "Vijay Tiwari / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "bhimbetka-rock-shelters-mesolithic-paintings — File:Bhimbetka banner.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-08-28",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2093345196050457085"
+  ]
 }
