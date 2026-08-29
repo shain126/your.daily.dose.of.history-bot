@@ -1,0 +1,19 @@
+{
+  "slug": "vasco-da-gama-departs-calicut-1498",
+  "pillar": "empires",
+  "image_query": "Vasco da Gama before the Zamorin of Calicut painting Veloso Salgado",
+  "confidence": "high",
+  "tweets": [
+    "Vasco da Gama before the Zamorin of Calicut, by José Veloso Salgado (1898). On 29 August 1498, laden with Malabar pepper and cinnamon, Gama's ships turned for Portugal — the first direct sea voyage linking Europe to India, opened at this Kerala court."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Meeting_between_Vasco_da_Gama_%26_Samoothiri_%28Zamorin%29_in_Calicut.jpg/3840px-Meeting_between_Vasco_da_Gama_%26_Samoothiri_%28Zamorin%29_in_Calicut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "HealthHistoryArt / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "vasco-da-gama-departs-calicut-1498 — File:Meeting between Vasco da Gama & Samoothiri (Zamorin) in Calicut.jpg"
+  },
+  "status": "pending",
+  "mode": "on_this_day",
+  "date": "2026-08-29",
+  "slot": "evening"
+}
