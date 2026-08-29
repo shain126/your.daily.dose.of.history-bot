@@ -12,8 +12,11 @@
     "attribution": "HealthHistoryArt / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "vasco-da-gama-departs-calicut-1498 — File:Meeting between Vasco da Gama & Samoothiri (Zamorin) in Calicut.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "on_this_day",
   "date": "2026-08-29",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2093628592710205903"
+  ]
 }
