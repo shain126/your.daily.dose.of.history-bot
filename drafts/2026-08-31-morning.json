@@ -1,0 +1,20 @@
+{
+  "slug": "konark-sun-temple",
+  "pillar": "temples",
+  "image_query": "Konark Sun Temple",
+  "confidence": "fallback",
+  "format": "showcase",
+  "tweets": [
+    "Konark Sun Temple. Konark's Sun Temple is a colossal stone chariot; its 24 carved wheels double as working sundials.",
+    "Follow @yddoseOfHistory for your daily dose of history 🇮🇳\n📷 Joydeep / Wikimedia Commons (CC BY-SA 4.0)"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/13th_Century_stone_architectures_at_Konark_Sun_Temple_Puri%2C_Odisha%2C_India.jpg/3840px-13th_Century_stone_architectures_at_Konark_Sun_Temple_Puri%2C_Odisha%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Joydeep / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "konark-sun-temple — File:13th Century stone architectures at Konark Sun Temple Puri, Odisha, India.jpg"
+  },
+  "status": "pending",
+  "mode": "on_this_day",
+  "date": "2026-08-31",
+  "slot": "morning"
+}
