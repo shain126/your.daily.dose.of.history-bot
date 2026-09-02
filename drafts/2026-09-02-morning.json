@@ -1,0 +1,19 @@
+{
+  "slug": "dancing-girl-mohenjo-daro",
+  "pillar": "art",
+  "image_query": "Dancing Girl Mohenjo-daro bronze statue National Museum New Delhi",
+  "confidence": "high",
+  "tweets": [
+    "The Dancing Girl of Mohenjo-daro, just 10.5 cm of bronze, cast nearly 4,500 years ago by the lost-wax method: wax shaped, sealed in clay, then melted away as molten metal took its place. One arm in bangles, hip cocked, utterly at ease. National Museum, New Delhi."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Dancing_girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jen with modifications by Ismoon  20 February 2012 (earlier version by Calliopejen1) / Wikimedia Commons (CC BY-SA 3.0)",
+    "alt": "dancing-girl-mohenjo-daro — File:Dancing girl.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-09-02",
+  "slot": "morning"
+}
