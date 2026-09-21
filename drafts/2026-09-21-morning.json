@@ -1,0 +1,19 @@
+{
+  "slug": "golden-temple-amritsar-langar",
+  "pillar": "temples",
+  "image_query": "Golden Temple Amritsar Harmandir Sahib",
+  "confidence": "high",
+  "tweets": [
+    "Harmandir Sahib, Amritsar — gilded in gold, founded 1589 by Guru Arjan Dev. Its langar has served free meals to every visitor, any faith or station, each day since — today the world's largest community kitchen, feeding lakhs daily."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hamandir_Sahib_%28Golden_Temple%29.jpg/3840px-Hamandir_Sahib_%28Golden_Temple%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "This picture has been taken by Oleg Yunakov. Contact e-mail: yunakovgmail.com. Image can be used in accordance with the terms of the СС-BY-SA license. Other photos can be seen here. / Wikimedia Commons (CC BY-SA 3.0)",
+    "alt": "golden-temple-amritsar-langar — File:Hamandir Sahib (Golden Temple).jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-09-21",
+  "slot": "morning"
+}
