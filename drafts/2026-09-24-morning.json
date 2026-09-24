@@ -1,0 +1,19 @@
+{
+  "slug": "elephanta-caves-trimurti-shiva",
+  "pillar": "art",
+  "image_query": "Elephanta Caves Trimurti Sadashiva sculpture Mumbai",
+  "confidence": "high",
+  "tweets": [
+    "Elephanta, Gharapuri island in Mumbai harbour — a Śiva temple hewn from basalt cliffs, generally dated to the 6th century CE under the Kalachuri kings. Its heart: a 20-foot Sadāśiva bust, three faces — Aghora fierce, Vāmadeva serene, Tatpuruṣa still. UNESCO, 1987."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rock_cut_stone_sculptures_of_Elephanta_Caves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Sharvarism / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "elephanta-caves-trimurti-shiva — File:Rock cut stone sculptures of Elephanta Caves.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-09-24",
+  "slot": "morning"
+}
