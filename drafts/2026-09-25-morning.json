@@ -1,0 +1,20 @@
+{
+  "slug": "mahabodhi-bodhgaya",
+  "pillar": "epics",
+  "image_query": "Mahabodhi Temple Bodh Gaya",
+  "confidence": "fallback",
+  "format": "showcase",
+  "tweets": [
+    "Mahabodhi Temple, Bodh Gaya. At Bodh Gaya, a descendant of the very Bodhi tree marks where the Buddha is said to have found enlightenment.",
+    "Follow @yddoseOfHistory for your daily dose of history 🇮🇳\n📷 Sumitsurai / Wikimedia Commons (CC BY-SA 4.0)"
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mahabodhi_Temple_Railing_-_Bodh_Gaya_ASI_Museum_-_11.jpg/3840px-Mahabodhi_Temple_Railing_-_Bodh_Gaya_ASI_Museum_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Sumitsurai / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "mahabodhi-bodhgaya — File:Mahabodhi Temple Railing - Bodh Gaya ASI Museum - 11.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-09-25",
+  "slot": "morning"
+}
