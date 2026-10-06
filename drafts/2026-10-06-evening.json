@@ -16,8 +16,15 @@
     "attribution": "Patrasagnik / Wikimedia Commons (Public domain)",
     "alt": "meghnad-saha-ionization-equation — File:Satyendra Nath Bose, Indian mathematician and physicist, with other scientists at Calcutta University, before 1937.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "on_this_day",
   "date": "2026-10-06",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2107398576439763030",
+    "2107398587344965877",
+    "2107398596920545508",
+    "2107398606466822358",
+    "2107398615987802247"
+  ]
 }
