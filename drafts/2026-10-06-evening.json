@@ -1,0 +1,23 @@
+{
+  "slug": "meghnad-saha-ionization-equation",
+  "pillar": "science",
+  "image_query": "Meghnad Saha physicist portrait photograph",
+  "confidence": "high",
+  "tweets": [
+    "A grocer's son from a flooded Bengal village cracked a puzzle astronomers couldn't solve: how do you read a star's temperature from its light alone?",
+    "His name was Meghnad Saha, born 6 October 1893 in Dhaka. Too poor for school fees at first, he still clawed his way to Presidency College, Calcutta -- among the sharpest physics minds in colonial India.",
+    "In 1920, Saha published an equation linking a star's ionization state to its temperature and pressure. It explained WHY stars show different spectral lines -- the missing physics behind the entire stellar classification system.",
+    "The Saha equation became a pillar of modern astrophysics, still used to decode starlight and work out what distant stars are made of. In 1927 he was elected a Fellow of the Royal Society -- rare for an Indian scientist under colonial rule.",
+    "Saha went on to found what's now the Saha Institute of Nuclear Physics in Calcutta, and was nominated for the Nobel Prize in Physics more than once. A grocer's son taught the world how to read the stars. Follow @yddoseOfHistory for your daily dose of history."
+  ],
+  "format": "thread",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Satyendra_Nath_Bose%2C_Indian_mathematician_and_physicist%2C_with_other_scientists_at_Calcutta_University%2C_before_1937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Patrasagnik / Wikimedia Commons (Public domain)",
+    "alt": "meghnad-saha-ionization-equation — File:Satyendra Nath Bose, Indian mathematician and physicist, with other scientists at Calcutta University, before 1937.jpg"
+  },
+  "status": "pending",
+  "mode": "on_this_day",
+  "date": "2026-10-06",
+  "slot": "evening"
+}
