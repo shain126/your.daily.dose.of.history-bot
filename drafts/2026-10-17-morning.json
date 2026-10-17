@@ -1,0 +1,23 @@
+{
+  "slug": "kedarnath-temple-boulder-2013-floods",
+  "pillar": "epics",
+  "image_query": "Kedarnath Temple Uttarakhand Himalayas",
+  "confidence": "high",
+  "tweets": [
+    "A boulder the size of a house once saved a 1,200-year-old temple from being wiped off the map. 🏔️",
+    "Kedarnath Temple sits at 3,583 m in the Garhwal Himalayas, near the source of the Mandakini river — one of the highest points of continuous Hindu pilgrimage on Earth.",
+    "Legend ties it to the Mahabharata: after the Kurukshetra war, the Pandavas sought Shiva's forgiveness. He fled in the form of a bull and dove into the earth — his hump is worshipped here.",
+    "The current stone temple is traditionally dated to around the 8th century CE, linked to the sage Adi Shankaracharya. Massive grey stone slabs are locked together without mortar — built to survive Himalayan winters and avalanches.",
+    "In June 2013, flash floods and landslides devastated the town around it. The temple itself stood — a giant rock reportedly split the debris flow and shielded its walls. Stone, faith, and geography, still standing. Follow @yddoseOfHistory for your daily dose of history."
+  ],
+  "format": "thread",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Kedarnath_Temple_and_himalayas.jpg/3840px-Kedarnath_Temple_and_himalayas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manaswrites / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "kedarnath-temple-boulder-2013-floods — File:Kedarnath Temple and himalayas.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-10-17",
+  "slot": "morning"
+}
