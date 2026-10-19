@@ -1,0 +1,20 @@
+{
+  "slug": "kedarnath-jyotirlinga-temple",
+  "pillar": "epics",
+  "image_query": "Kedarnath Temple Himalayas",
+  "confidence": "high",
+  "tweets": [
+    "Kedarnath — one of the twelve Jyotirlingas, where Śiva is revered as an endless pillar of light named across the land in the Śiva Purāṇa. Its liṅga is svayambhū, self-manifest, housed in a grey-stone shrine fitted without mortar, 3,583 m up in the Himalayas.",
+    "The twelve stretch from Somnāth on Gujarat's coast to Rāmeśwaram's southern shore — a sacred geography binding the subcontinent to Śiva's light. In the 2013 floods, a boulder is said to have shielded these ancient walls. Follow @yddoseOfHistory for your daily dose of history"
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Kedarnath_temple%2C_Uttrakhand_02.jpg/3840px-Kedarnath_temple%2C_Uttrakhand_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rohit Sharma / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "kedarnath-jyotirlinga-temple — File:Kedarnath temple, Uttrakhand 02.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-10-19",
+  "slot": "morning"
+}
