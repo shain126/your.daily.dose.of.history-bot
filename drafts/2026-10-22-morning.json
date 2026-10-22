@@ -1,0 +1,20 @@
+{
+  "slug": "chandrayaan-1-launch-2008",
+  "pillar": "science",
+  "image_query": "Chandrayaan-1 PSLV-C11 launch Sriharikota 2008",
+  "confidence": "high",
+  "tweets": [
+    "Chandrayaan-1 lifts off from Sriharikota on 22 October 2008, India's first voyage to the Moon. Carried by a PSLV-C11 rocket built entirely at home, it bore eleven instruments — five Indian, the rest from Europe and the US — into orbit around another world.",
+    "Weeks later, its onboard Moon Mineralogy Mapper detected water molecules in lunar soil — evidence confirmed in 2009, reshaping what we know about the Moon. Follow @yddoseOfHistory for your daily dose of history.\n📷 NASA / Wikimedia Commons (Public domain)"
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/KSC-08pd3405_PSLV-C11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "NASA / Wikimedia Commons (Public domain)",
+    "alt": "chandrayaan-1-launch-2008 — File:KSC-08pd3405 PSLV-C11.jpg"
+  },
+  "status": "pending",
+  "mode": "on_this_day",
+  "date": "2026-10-22",
+  "slot": "morning"
+}
