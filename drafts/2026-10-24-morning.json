@@ -1,0 +1,19 @@
+{
+  "slug": "takshashila-jivaka-physician-training",
+  "pillar": "science",
+  "image_query": "Dharmarajika Stupa Taxila ruins",
+  "confidence": "high",
+  "tweets": [
+    "Takshashila, beyond the Indus — among the earliest seats of higher learning anywhere, drawing scholars from Persia to Magadha by the 6th century BCE. Here the physician Jīvaka trained under the teacher Ātreya before becoming healer to kings — and to the Buddha himself."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Dharmarajika_stupa_%26_Monastery_Taxila.jpg/3840px-Dharmarajika_stupa_%26_Monastery_Taxila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Mhtoori / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "takshashila-jivaka-physician-training — File:Dharmarajika stupa & Monastery Taxila.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-10-24",
+  "slot": "morning"
+}
