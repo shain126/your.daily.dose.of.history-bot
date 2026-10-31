@@ -1,0 +1,19 @@
+{
+  "slug": "pushkar-ghats-pancha-tirtha",
+  "pillar": "epics",
+  "image_query": "Pushkar Lake ghats Rajasthan aerial",
+  "confidence": "high",
+  "tweets": [
+    "Fifty-two ghats ring Pushkar's lake, each named for a king or sage said to have bathed there — sacred geography written in pilgrimage rather than stone. Above them, the Brahma temple's shikhara is crowned by a hamsa, the swan said to winnow truth from illusion."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Historic_heritage_sites_of_Rajasthan_with_GPS_coordinates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ms Sarah Welch / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "pushkar-ghats-pancha-tirtha — File:Historic heritage sites of Rajasthan with GPS coordinates.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-10-31",
+  "slot": "morning"
+}
