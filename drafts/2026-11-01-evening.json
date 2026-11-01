@@ -13,8 +13,12 @@
     "attribution": "Joydeep / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "konark-sun-temple — File:13th Century stone architectures at Konark Sun Temple Puri, Odisha, India.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "on_this_day",
   "date": "2026-11-01",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2116824957304840468",
+    "2116824968700772752"
+  ]
 }
