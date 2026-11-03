@@ -12,8 +12,11 @@
     "attribution": "Gerd Eichmann / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "chand-baori-stepwell-abhaneri — File:Abhaneri-Chand Baori-14-Stufenbrunnen-2018-gje.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-03",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2117554807447720017"
+  ]
 }
