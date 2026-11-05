@@ -13,8 +13,12 @@
     "attribution": "Sumitsurai / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "mahabodhi-bodhgaya — File:Mahabodhi Temple Railing - Bodh Gaya ASI Museum - 12.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-05",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2118278046453301555",
+    "2118278057249378604"
+  ]
 }
