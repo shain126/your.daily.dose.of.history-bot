@@ -16,8 +16,15 @@
     "attribution": "Ketan0212 / Wikimedia Commons (CC BY-SA 3.0)",
     "alt": "char-dham-four-sacred-corners — File:Badrinath temple entrance.JPG"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-09",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2119732517607489882",
+    "2119732529376678313",
+    "2119732538969059707",
+    "2119732548561403965",
+    "2119732558241890472"
+  ]
 }
