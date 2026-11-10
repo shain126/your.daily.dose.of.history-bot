@@ -12,8 +12,11 @@
     "attribution": "Shagil Muzhappilangad / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "ajanta-caves-fresco-technique — File:Murals painting at Ajanta caves by Shagil 09 33 04 935000.jpeg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-10",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2120097162147291322"
+  ]
 }
