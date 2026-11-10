@@ -1,0 +1,19 @@
+{
+  "slug": "ajanta-caves-fresco-technique",
+  "pillar": "art",
+  "image_query": "Ajanta Caves Cave 17 mural painting",
+  "confidence": "high",
+  "tweets": [
+    "Above the Waghora river, thirty rock-cut sanctuaries hold Buddhism's finest surviving paintings. Artists built the wall in mud-straw plaster finished with lime, then worked tempera pigments in before it fully dried. Cave 17, Vākāṭaka era, 5th century CE."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Murals_painting_at_Ajanta_caves_by_Shagil_09_33_04_935000.jpeg/3840px-Murals_painting_at_Ajanta_caves_by_Shagil_09_33_04_935000.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Shagil Muzhappilangad / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "ajanta-caves-fresco-technique — File:Murals painting at Ajanta caves by Shagil 09 33 04 935000.jpeg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-11-10",
+  "slot": "evening"
+}
