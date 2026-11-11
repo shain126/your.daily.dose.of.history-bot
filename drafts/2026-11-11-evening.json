@@ -12,8 +12,11 @@
     "attribution": "Snehrashmi / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "rani-ki-vav-stepwell-patan — File:Rani ki vav - Patan - Gujarat - DSC001.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-11",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2120452001003622635"
+  ]
 }
