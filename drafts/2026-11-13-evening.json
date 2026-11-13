@@ -12,8 +12,11 @@
     "attribution": "Rohit Sharma / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "twelve-jyotirlingas-pillar-of-light — File:Kedarnath temple, Uttrakhand 02.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-13",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2121178849815769293"
+  ]
 }
