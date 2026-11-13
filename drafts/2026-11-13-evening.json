@@ -1,0 +1,19 @@
+{
+  "slug": "twelve-jyotirlingas-pillar-of-light",
+  "pillar": "epics",
+  "image_query": "Kedarnath Temple Himalayas",
+  "confidence": "high",
+  "tweets": [
+    "Twelve jyotirlingas scatter from Rameśwaram's shore to Kedarnāth's snowline — shrines marking where Śiva is said to have blazed forth as an endless pillar of light, too vast for Brahmā and Viṣṇu to find its end. Kedarnāth Temple, Garhwal Himalayas, stone shrine."
+  ],
+  "format": "showcase",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Kedarnath_temple%2C_Uttrakhand_02.jpg/3840px-Kedarnath_temple%2C_Uttrakhand_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rohit Sharma / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "twelve-jyotirlingas-pillar-of-light — File:Kedarnath temple, Uttrakhand 02.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-11-13",
+  "slot": "evening"
+}
