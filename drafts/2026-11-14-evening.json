@@ -12,8 +12,15 @@
   ],
   "format": "thread",
   "image": null,
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-14",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2121532125493236097",
+    "2121532134917804370",
+    "2121532144376041612",
+    "2121532153876132059",
+    "2121532163359420893"
+  ]
 }
