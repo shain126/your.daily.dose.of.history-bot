@@ -12,8 +12,11 @@
     "attribution": "rajaraman sundaram / Wikimedia Commons (CC BY 3.0)",
     "alt": "ramanathaswamy-temple-pillared-corridor — File:Thousand pillar corridor,Rameshwaram temple,tamilnadu - panoramio.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-17",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2122645153814888676"
+  ]
 }
