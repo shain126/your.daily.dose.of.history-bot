@@ -13,8 +13,12 @@
     "attribution": "Venkygrams / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "gomateshwara-bahubali-monolith-981ce — File:Shravanabelagola - Gommateshwara Statue 1.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-18",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2123000405089005615",
+    "2123000417034379385"
+  ]
 }
