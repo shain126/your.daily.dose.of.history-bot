@@ -16,8 +16,15 @@
     "attribution": "Rijksmuseum / Wikimedia Commons (CC0)",
     "alt": "pahari-kangra-painting-krishna — File:Prins en zijn geliefde (Krishna en Raddha) vluchtend voor een storm, RP-T-1958-184.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-20",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2123722271537709299",
+    "2123722283986354291",
+    "2123722293570379820",
+    "2123722303217315989",
+    "2123722312797061413"
+  ]
 }
