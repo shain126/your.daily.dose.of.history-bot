@@ -16,8 +16,15 @@
     "attribution": "Saankav / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "elephanta-caves-trimurti-sadashiva — File:Trimurti Sadashiva in Cave 1 of Elephanta Cave.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-21",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2124080751851507820",
+    "2124080763692101718",
+    "2124080773091541171",
+    "2124080782474203635",
+    "2124080791806513217"
+  ]
 }
