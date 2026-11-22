@@ -13,8 +13,12 @@
     "attribution": "Saankav / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "elephanta-caves-trimurti-three-faces-meaning — File:Trimurti Sadashiva in Cave 1 of Elephanta Cave.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-22",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2124443579812815028",
+    "2124443590948798549"
+  ]
 }
