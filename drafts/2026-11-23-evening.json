@@ -13,8 +13,12 @@
     "attribution": "Rajeshjena453 / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "pattachitra — File:Easy Pattachitra of Lord Jagarnath.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-23",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2124820165322056015",
+    "2124820175832936948"
+  ]
 }
