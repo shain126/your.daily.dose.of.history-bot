@@ -1,0 +1,20 @@
+{
+  "slug": "pattachitra",
+  "pillar": "art",
+  "image_query": "Pattachitra",
+  "confidence": "fallback",
+  "format": "showcase",
+  "tweets": [
+    "Pattachitra. Odisha's Pattachitra scrolls are painted on cloth stiffened with tamarind paste, using only natural colours.",
+    "Follow @yddoseOfHistory for your daily dose of history 🇮🇳\n📷 Rajeshjena453 / Wikimedia Commons (CC BY-SA 4.0)"
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Easy_Pattachitra_of_Lord_Jagarnath.jpg/3840px-Easy_Pattachitra_of_Lord_Jagarnath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rajeshjena453 / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "pattachitra — File:Easy Pattachitra of Lord Jagarnath.jpg"
+  },
+  "status": "pending",
+  "mode": "pillar",
+  "date": "2026-11-23",
+  "slot": "evening"
+}
