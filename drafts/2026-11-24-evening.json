@@ -13,8 +13,12 @@
     "attribution": "Ingo Mehling / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "vittala-temple-hampi — File:Hampi - Vittala Temple - Side Gopuram.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "on_this_day",
   "date": "2026-11-24",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2125209644083696082",
+    "2125209655064273112"
+  ]
 }
