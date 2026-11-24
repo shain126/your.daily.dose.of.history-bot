@@ -1,0 +1,20 @@
+{
+  "slug": "vittala-temple-hampi",
+  "pillar": "temples",
+  "image_query": "Vittala Temple Hampi",
+  "confidence": "fallback",
+  "format": "showcase",
+  "tweets": [
+    "Vittala Temple, Hampi. Hampi's Vittala Temple has stone pillars that ring with musical notes when struck.",
+    "Follow @yddoseOfHistory for your daily dose of history 🇮🇳\n📷 Ingo Mehling / Wikimedia Commons (CC BY-SA 4.0)"
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Hampi_-_Vittala_Temple_-_Side_Gopuram.jpg/3840px-Hampi_-_Vittala_Temple_-_Side_Gopuram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ingo Mehling / Wikimedia Commons (CC BY-SA 4.0)",
+    "alt": "vittala-temple-hampi — File:Hampi - Vittala Temple - Side Gopuram.jpg"
+  },
+  "status": "pending",
+  "mode": "on_this_day",
+  "date": "2026-11-24",
+  "slot": "evening"
+}
