@@ -13,8 +13,12 @@
     "attribution": "VasuVR / Wikimedia Commons (CC BY-SA 4.0)",
     "alt": "chennakeshava-temple-belur-1117-hoysala — File:KA 060 Belur porch with Devata small.jpg"
   },
-  "status": "pending",
+  "status": "posted",
   "mode": "pillar",
   "date": "2026-11-25",
-  "slot": "evening"
+  "slot": "evening",
+  "tweet_ids": [
+    "2125553370220110145",
+    "2125553380668117298"
+  ]
 }
